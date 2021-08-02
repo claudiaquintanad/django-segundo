@@ -1,0 +1,20 @@
+h1{
+    color: darkslategray;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: lightslategray;
+    border: 4px darkslategray solid;
+    border-radius: 5px;
+}
+p{
+    color: lightslategray;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: darkslategray;
+    border: 4px lightslategray solid;
+    border-radius: 5px;
+}
