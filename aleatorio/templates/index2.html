@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Generador de palabras</h1>
+    <div>
+        <p>intento #{{request.session.contador}} </p>
+    </div>
+    <div>
+        <p>{{word}}</p>
+    </div>
+    <form>
+        <button type="submit" class="btn">Generar</button>
+    </form>
+    <a href="reset" class="btn btn-lg btn-primary fw-bold border-white">Reset</a>
+</body>
+</html>
